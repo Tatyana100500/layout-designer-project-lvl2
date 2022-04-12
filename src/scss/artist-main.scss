@@ -5,6 +5,7 @@
 
   h1 {
     margin-top: 50px;
+
     @media (max-width: 600px) {
       margin-top: 25px;
     }
@@ -14,11 +15,13 @@
 .two-button {
   margin-top: 3rem;
   margin-bottom: 23px;
+
   @include gap-24;
 
   button {
     flex-shrink: 0;
     width: 200px;
+
     @include uppercase;
   }
 

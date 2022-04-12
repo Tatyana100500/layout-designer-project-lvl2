@@ -25,7 +25,8 @@ footer {
       h2 {
         margin-bottom: 16px;
 
-        font: 700 18px/27px "Roboto", sans-serif;
+        font: 700 18px/27px Roboto, sans-serif;
+
         @include uppercase;
       }
 

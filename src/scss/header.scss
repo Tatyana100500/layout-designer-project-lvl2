@@ -21,7 +21,6 @@ header {
 
       .logo {
         @include h-style;
-
         @extend %gap-16;
         flex-wrap: nowrap;
         margin-right: 72px;
@@ -40,14 +39,13 @@ header {
         }
       }
 
-    ul {
-      @include gap-24;
+      ul {
+        @include gap-24;
 
-      a {
-        @include h-style;
-
-        @extend %reset-a;
-      }
+        a {
+          @include h-style;
+          @extend %reset-a;
+        }
 
         @media (max-width: 600px) {
           flex-direction: column;
