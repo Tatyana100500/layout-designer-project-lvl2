@@ -132,5 +132,5 @@ li {
 .btn-red {
   background: $red;
 
-  @extend .text-small;
+  @extend %text-small;
 }
