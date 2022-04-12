@@ -30,7 +30,6 @@
 
   .pricing-value {
     @extend %text-7;
-
     @include reset;
 
     margin-bottom: 40px;
@@ -49,7 +48,6 @@
     display: block;
 
     @extend %reset-a;
-
     @include border-1;
     @include full-width;
   }
